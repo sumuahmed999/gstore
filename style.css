@@ -78,16 +78,68 @@
 #breakfast{
   background-color: #fff2d9;
 }
+
+#personal-care{
+  background-color: #d5e5ca;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #shop-with{
   background-color: #1b9435;
   color: #fff;
 }
 #about{
-  font-size: 40px;
-  display: inline-block;
-  padding: 5px 20px;
-  opacity: 0.7;
-  background-color: #fff;
+  font-size: 15px;
+  text-align: justify;
+  padding: 20px;
+  color: #dddddd!important;
+  background-color: #1b9435;
 }
 #about-list{
   font-size: 22px;
