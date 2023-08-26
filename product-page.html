@@ -154,12 +154,15 @@
               <!-- col.// -->
               <div class="col-md-4 col-6 mb-3">
                 <label class="mb-2 d-block">Quantity</label>
-                <div class="input-group">
-                  <input type="button" value="-" class="button-minus" data-field="quantity">
-                  <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
-                  <input type="button" value="+" class="button-plus" data-field="quantity">
+                <div class="input-group mb-3" style="width: 170px;">
+                  <button class="btn btn-white border border-secondary px-3" type="button" id="button-addon1" data-mdb-ripple-color="dark" onclick="decr()">
+                    <i class="fas fa-minus"></i>
+                  </button>
+                  <input type="text" id="id1" class="form-control text-center border border-secondary" placeholder="0" value="0" disabled aria-label="Example text with button addon" aria-describedby="button-addon1" />
+                  <button class="btn btn-white border border-secondary px-3" type="button" id="button-addon2" data-mdb-ripple-color="dark" onclick="incr()">
+                    <i class="fas fa-plus"></i>
+                  </button>
                 </div>
-                
               </div>
             </div>
             <a href="#" class="btn shadow-0" id="mybtn-yellow"> Buy now </a>
