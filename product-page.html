@@ -11,6 +11,7 @@
     <!--For animation-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
  	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="qty.js"></script>
     <!--For icon-->
     <script src="https://kit.fontawesome.com/1ce4a1b1ff.js" crossorigin="anonymous"></script>
     
@@ -22,8 +23,8 @@
         <div class="container-fluid bg-light py-3">
             <nav class="navbar navbar-expand-lg">
                 <div class="mx-auto">
-                    <img src="logo1.png" class="" height="60px" width="60px">
-                    <a href="" class="navbar-brand text-primary">G-Store</a>
+                    <img src="gculogo2.png" class="" height="60px" width="60px">
+                    <a href="index.html" class="navbar-brand text-primary">GCU-Store</a>
                 </div>
                <div class="input-group col-md-8">
                         <input type="search" class="form-control rounded py-3 py-md-4" placeholder="Search Grocery Products...." aria-label="Search" />
@@ -48,11 +49,11 @@
                   <!-- Breadcrumb -->
                   <nav class="d-flex">
                     <h6 class="mb-0">
-                      <a href="" class="text-white-50">Home</a>
+                      <a href="" class="text-decoration-none text-white-50">Home</a>
                       <span class="text-white-50 mx-2"> > </span>
-                      <a href="" class="text-white-50">Breakfast</a>
+                      <a href="" class="text-decoration-none text-white-50">Breakfast</a>
                       <span class="text-white-50 mx-2"> > </span>
-                      <a href="" class="text-white"><u>product</u></a>
+                      <a href="" class="text-decoration-none text-white">Product</a>
                     </h6>
                   </nav>
                 </div>
@@ -153,15 +154,12 @@
               <!-- col.// -->
               <div class="col-md-4 col-6 mb-3">
                 <label class="mb-2 d-block">Quantity</label>
-                <div class="input-group mb-3" style="width: 170px;">
-                  <button class="btn btn-white border border-secondary px-3" type="button" id="button-addon1" data-mdb-ripple-color="dark">
-                    <i class="fas fa-minus"></i>
-                  </button>
-                  <input type="text" class="form-control text-center border border-secondary" placeholder="14" aria-label="Example text with button addon" aria-describedby="button-addon1" />
-                  <button class="btn btn-white border border-secondary px-3" type="button" id="button-addon2" data-mdb-ripple-color="dark">
-                    <i class="fas fa-plus"></i>
-                  </button>
+                <div class="input-group">
+                  <input type="button" value="-" class="button-minus" data-field="quantity">
+                  <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                  <input type="button" value="+" class="button-plus" data-field="quantity">
                 </div>
+                
               </div>
             </div>
             <a href="#" class="btn shadow-0" id="mybtn-yellow"> Buy now </a>
@@ -271,7 +269,7 @@
   
                 <div class="d-flex mb-3">
                   <a href="#" class="me-3">
-                    <img src="images/brk2.jpg" style="min-width: 96px; height: 96px;" class="img-md img-thumbnail" />
+                    <img src="/images/brk2.jpg" style="min-width: 96px; height: 96px;" class="img-md img-thumbnail" />
                   </a>
                   <div class="info">
                     <a href="#" class="nav-link mb-1" id="mytext">
@@ -372,7 +370,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <h4 id="services">ABOUT SHOP CART</h4><hr>
+          <h4 id="services">ABOUT GCU SHOP</h4><hr>
           <p>On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers.</p>
         </div>
 
@@ -407,7 +405,7 @@
     </div>
   </div>
   <div class="footer">
-    <p class="lead text-center py-2 my-auto text-white"> &#169; 2023 | Storm Breaker</p>
+    <p class="lead text-center py-2 my-auto text-white"> &#169; 2023 | GCU Store</p>
   </div>
   
 <script>
